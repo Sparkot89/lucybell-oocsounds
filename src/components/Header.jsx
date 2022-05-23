@@ -4,10 +4,10 @@ function Header() {
     return (
         <div>
             <div className="header">
-                <img alt="imagen" src=""></img>
+                <img className='imagenIntensa imagen' alt="imagen" src="https://raw.githubusercontent.com/Sparkot89/lucybell-oocsounds/main/public/img/intense_lucy.png"></img>
                 <h1>
-                    Lucybell 
-                    <br/>
+                    Lucybell
+                    <br />
                     Hanner
                 </h1>
             </div>
