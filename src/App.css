@@ -1,3 +1,9 @@
+*{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  
+}
+
 .App {
   background-color: #282c34;
   min-height: 100vh;
@@ -20,8 +26,10 @@ div.buttons-grid{
 }
 
 div.button-container {
+  z-index: 0;
   width: 200px;
 	height: 200px;
+  margin: 15px;
 }
 
 a.button {
@@ -32,24 +40,24 @@ a.button {
 	color: #ffe5e5;
 	text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
 	background: rgb(93, 0, 255);
-	width: 140px;
-	height: 140px;
+	width: 150px;
+	height: 150px;
 	top: 50%;
 	left: 50%;
 	margin: -74px 0 0 -75px;
-	-webkit-border-radius: 50%;
+	/* -webkit-border-radius: 50%; */
 	border-radius: 50%;
-	-webkit-box-shadow: inset 0 -5px 20px rgba(0,0,0,0.5), inset 0 15px 20px rgba(255,255,255,0.5), 0 5px 10px rgba(0,0,0,0.75), 0 10px 10px rgba(0,0,0,0.5);
+	/* -webkit-box-shadow: inset 0 -5px 20px rgba(0,0,0,0.5), inset 0 15px 20px rgba(255,255,255,0.5), 0 5px 10px rgba(0,0,0,0.75), 0 10px 10px rgba(0,0,0,0.5); */
 	box-shadow: inset 0 -5px 20px rgba(0,0,0,0.5), inset 0 15px 20px rgba(255,255,255,0.5), 0 5px 10px rgba(0,0,0,0.75), 0 10px 10px rgba(0,0,0,0.5);
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
+	/* -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box; */
 	box-sizing: border-box;
 	padding: -3px 5px 0 0;
 	cursor: pointer;
-	-webkit-transition: all 0.1s ease;
+	/* -webkit-transition: all 0.1s ease;
 	-moz-transition: all 0.1s ease;
 	-o-transition: all 0.1s ease;
-	-ms-transition: all 0.1s ease;
+	-ms-transition: all 0.1s ease; */
 	transition: all 0.1s ease;
 	display: flex;
 	align-items: center;
@@ -65,19 +73,20 @@ a.button::before {
 	z-index: -5;
 	width: 180px;
 	height: 180px;
-	top: 50%;
-	left: 50%;
-	-webkit-border-radius: 50%;
 	border-radius: 50%;
-	background: rgb(93, 0, 255);
+	background: rgb(0, 170, 255);
 	top: -15px;
-	left: -20px;
-	-webkit-box-shadow: inset 0 7px 15px rgba(255,255,255,0.5), inset 0 -7px 15px rgba(0,0,0,0.5);
+	left: -15px;
+	/* -webkit-box-shadow: inset 0 7px 15px rgba(255,255,255,0.5), inset 0 -7px 15px rgba(0,0,0,0.5); */
 	box-shadow: inset 0 7px 15px rgba(255,255,255,0.5), inset 0 -7px 15px rgba(0,0,0,0.5);
 }
 
 a.button:active {
-	-webkit-box-shadow: inset 0 0 20px rgba(0,0,0,0.5);
+	/* -webkit-box-shadow: inset 0 0 20px rgba(0,0,0,0.5); */
 	box-shadow: inset 0 0 20px rgba(0,0,0,0.5);
 	color: #ffeded;
+}
+
+a.button > p {
+	width: 70%;
 }
