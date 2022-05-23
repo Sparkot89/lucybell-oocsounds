@@ -3,7 +3,11 @@ import '../App.css';
 function Button(props) {
   return (
     <div className="button-container">
-        <a href={props.sound.uri} className="button">
+        <a onClick={(event)=>{
+            event.preventDefault();
+            let sound = new Audio(`https://raw.githubusercontent.com/Sparkot89/lucybell-oocsounds/main/public/audios/${props.sound.id}.mp3`);
+            sound.play();
+        }} href="/" className="button">
             <p>
                 {props.sound.name}
             </p>
