@@ -1,19 +1,4 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -24,15 +9,75 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+div.buttons-grid{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 90%;
+  flex-wrap: wrap;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+div.button-container {
+  width: 200px;
+	height: 200px;
+}
+
+a.button {
+	position: relative;
+	display: block;
+	text-align: center;
+	font-size: 1.5rem;
+	color: #ffe5e5;
+	text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+	background: rgb(93, 0, 255);
+	width: 140px;
+	height: 140px;
+	top: 50%;
+	left: 50%;
+	margin: -74px 0 0 -75px;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	-webkit-box-shadow: inset 0 -5px 20px rgba(0,0,0,0.5), inset 0 15px 20px rgba(255,255,255,0.5), 0 5px 10px rgba(0,0,0,0.75), 0 10px 10px rgba(0,0,0,0.5);
+	box-shadow: inset 0 -5px 20px rgba(0,0,0,0.5), inset 0 15px 20px rgba(255,255,255,0.5), 0 5px 10px rgba(0,0,0,0.75), 0 10px 10px rgba(0,0,0,0.5);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: -3px 5px 0 0;
+	cursor: pointer;
+	-webkit-transition: all 0.1s ease;
+	-moz-transition: all 0.1s ease;
+	-o-transition: all 0.1s ease;
+	-ms-transition: all 0.1s ease;
+	transition: all 0.1s ease;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+  user-select: none;
+}
+
+a.button::before {
+	content: " ";
+	display: block;
+	position: absolute;
+	z-index: -5;
+	width: 180px;
+	height: 180px;
+	top: 50%;
+	left: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	background: rgb(93, 0, 255);
+	top: -15px;
+	left: -20px;
+	-webkit-box-shadow: inset 0 7px 15px rgba(255,255,255,0.5), inset 0 -7px 15px rgba(0,0,0,0.5);
+	box-shadow: inset 0 7px 15px rgba(255,255,255,0.5), inset 0 -7px 15px rgba(0,0,0,0.5);
+}
+
+a.button:active {
+	-webkit-box-shadow: inset 0 0 20px rgba(0,0,0,0.5);
+	box-shadow: inset 0 0 20px rgba(0,0,0,0.5);
+	color: #ffeded;
 }
