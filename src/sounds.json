@@ -18,5 +18,9 @@
   {
     "name": "Tengo el lobby abierto.",
     "id": "lobby"
+  },
+  {
+    "name": "Y la perra seguía y seguía y seguía...",
+    "id": "perra"
   }
 ]
