@@ -2,7 +2,7 @@
   "name": "lucybell_quotes",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://sparkot89.github.io/lucybell-soundsOOC",
+  "homepage":"https://sparkot89.github.io/lucybell-soundsOOC/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
