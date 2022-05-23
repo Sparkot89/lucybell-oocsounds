@@ -28,10 +28,6 @@
     "id": "traquea"
   },
   {
-    "name": "¿Española o Argentina?",
-    "id": "pija"
-  },
-  {
     "name": "Ábreme el chocho!",
     "id": "chocho"
   },
@@ -48,7 +44,15 @@
     "id": "me-cuesta"
   },
   {
-    "name": "La hierva, gente!",
+    "name": "La hierba, gente!",
     "id": "hierba"
+  },
+  {
+    "name": "El chino del otro día",
+    "id": "chino"
+  },
+  {
+    "name": "Cuando te sangra el chocho...",
+    "id": "sangra-chocho"
   }
 ]

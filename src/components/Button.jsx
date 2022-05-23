@@ -7,7 +7,11 @@ function Button(props) {
             event.preventDefault();
             let sound = new Audio(`https://raw.githubusercontent.com/Sparkot89/lucybell-oocsounds/main/public/audios/${props.sound.id}.mp3`);
             sound.play();
-        }} href="/" className="button">
+        }} 
+        onKeyDown={(event)=>{
+            event.preventDefault();
+        }}
+        href="/" className="button">
             <p>
                 {props.sound.name}
             </p>
