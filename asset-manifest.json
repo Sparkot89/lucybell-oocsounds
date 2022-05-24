@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/lucybell-soundsOOC/static/css/main.fab2b246.css",
-    "main.js": "/lucybell-soundsOOC/static/js/main.7230fbed.js",
+    "main.js": "/lucybell-soundsOOC/static/js/main.b0882708.js",
     "static/js/787.6d77c3b9.chunk.js": "/lucybell-soundsOOC/static/js/787.6d77c3b9.chunk.js",
     "static/media/space3.png": "/lucybell-soundsOOC/static/media/space3.f87f64182b741e09aeef.png",
     "index.html": "/lucybell-soundsOOC/index.html",
     "main.fab2b246.css.map": "/lucybell-soundsOOC/static/css/main.fab2b246.css.map",
-    "main.7230fbed.js.map": "/lucybell-soundsOOC/static/js/main.7230fbed.js.map",
+    "main.b0882708.js.map": "/lucybell-soundsOOC/static/js/main.b0882708.js.map",
     "787.6d77c3b9.chunk.js.map": "/lucybell-soundsOOC/static/js/787.6d77c3b9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fab2b246.css",
-    "static/js/main.7230fbed.js"
+    "static/js/main.b0882708.js"
   ]
 }
