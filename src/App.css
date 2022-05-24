@@ -6,6 +6,11 @@
 
 html{
   min-width: 100%;
+  min-height: 100%;
+}
+
+body{
+  min-height: 100%;
 }
 
 .App {
@@ -19,6 +24,7 @@ html{
   color: white;
   background-image: url("../public/img/space.jpeg");
   background-size: 4000px;
+  height: 100%;
 }
 
 .App > div{
