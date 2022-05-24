@@ -21,9 +21,7 @@ html, body, #root {
   justify-content: flex-start;
   font-size: calc(10px + 2vmin);
   color: white;
-  background-image: url("../public/img/space.jpeg");
-  background-size: 4000px;
-  height: 100%;
+  background-image: url("../public/img/space3.png");
 }
 
 .App > div{
