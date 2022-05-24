@@ -9,7 +9,7 @@ html{
 }
 
 html, body, .App{
-  min-height: 100% !important;
+  height: 100% !important;
 }
 
 .App {
