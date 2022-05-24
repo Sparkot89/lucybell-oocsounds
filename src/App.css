@@ -8,7 +8,7 @@ html{
   min-width: 100%;
 }
 
-html, body, .App{
+html, body, #root {
   height: 100% !important;
 }
 
