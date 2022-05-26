@@ -5,6 +5,8 @@ import sounds from '../sounds';
 function ButtonsGrid() {
     let soundsMapped = sounds.map((sound, index) => {
         return <Button key={index} sound={sound} />
+    }).sort((a, b) => {
+        return b.props.sound.date - a.props.sound.date;
     });
 
     return (
