@@ -142,6 +142,40 @@ a.button::before {
   box-shadow: inset 0 7px 15px rgba(255, 255, 255, 0.5), inset 0 -7px 15px rgba(0, 0, 0, 0.5);
 }
 
+
+a.newAudio p::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  z-index: 0;
+  top: -10px;
+  left: 150px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  background-image: url("../public/img/saturn.png");
+  background-size: cover;
+  animation-name: flipflap;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+
+}
+
+a.newAudio p::before {
+  content: "New";
+  display: block;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  z-index: 1;
+  top: 0px;
+  left: 150px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  background-size: cover;
+}
+
+
 a.button:active {
   box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5);
   color: #ffeded;
@@ -150,4 +184,9 @@ a.button:active {
 a.button>p {
   width: 70%;
   font-style: italic;
+}
+
+@keyframes flipflap {
+  50% {transform: rotate(-90deg)}
+  100% {transform: rotate(0deg)}
 }
