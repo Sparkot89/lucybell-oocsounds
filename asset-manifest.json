@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/lucybell-soundsOOC/static/css/main.72fd1b6a.css",
-    "main.js": "/lucybell-soundsOOC/static/js/main.b20f8614.js",
+    "main.css": "/lucybell-soundsOOC/static/css/main.728ba88f.css",
+    "main.js": "/lucybell-soundsOOC/static/js/main.3923c3ec.js",
     "static/js/787.6d77c3b9.chunk.js": "/lucybell-soundsOOC/static/js/787.6d77c3b9.chunk.js",
     "static/media/space3.png": "/lucybell-soundsOOC/static/media/space3.f87f64182b741e09aeef.png",
+    "static/media/saturn.png": "/lucybell-soundsOOC/static/media/saturn.d1d176a43452104869b4.png",
     "index.html": "/lucybell-soundsOOC/index.html",
-    "main.72fd1b6a.css.map": "/lucybell-soundsOOC/static/css/main.72fd1b6a.css.map",
-    "main.b20f8614.js.map": "/lucybell-soundsOOC/static/js/main.b20f8614.js.map",
+    "main.728ba88f.css.map": "/lucybell-soundsOOC/static/css/main.728ba88f.css.map",
+    "main.3923c3ec.js.map": "/lucybell-soundsOOC/static/js/main.3923c3ec.js.map",
     "787.6d77c3b9.chunk.js.map": "/lucybell-soundsOOC/static/js/787.6d77c3b9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.72fd1b6a.css",
-    "static/js/main.b20f8614.js"
+    "static/css/main.728ba88f.css",
+    "static/js/main.3923c3ec.js"
   ]
 }
